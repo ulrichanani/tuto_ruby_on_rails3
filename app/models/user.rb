@@ -12,7 +12,7 @@ class User < ApplicationRecord
 
 
   has_secure_password
-  validates :password, presence: true, length: {minimum: 6}
+  validates :password, presence: true, length: {minimum: 6}, allow_nil: true
 
   # Can write User.digenst or self.digest
   # Or can define many class methods using the notation bellow
