@@ -34,4 +34,4 @@
 /spring/*.pid
 
 /.idea/*
-/public/uploads/*
+/public/uploads/**/*
