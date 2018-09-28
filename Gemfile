@@ -13,8 +13,10 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'jquery-rails'
 
 gem 'faker', '1.9.1'
-gem 'will_paginate'
-gem 'bootstrap-will_paginate'
+gem 'will_paginate', '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+gem 'carrierwave', '1.2.3'
+gem 'mini_magick', '4.9.2'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
@@ -81,4 +83,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
   gem 'pg', '1.1.3'
+  gem 'fog'
 end
